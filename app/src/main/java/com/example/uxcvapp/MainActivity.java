@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView infoHeader;
     private TextView info;
     private ArrayAdapter mAdapter;
-    private Spinner spinner;
     private Button button;
 
     @Override
@@ -31,26 +30,7 @@ public class MainActivity extends AppCompatActivity {
         this.info = findViewById(R.id.infoTextView);
 
         this.mAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_spinner_dropdown_item, getResources().getStringArray(R.array.language_option));
-        this.spinner = findViewById(R.id.languageSpinner);
-        this.spinner.setAdapter(mAdapter);
-        this.spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Context context;
-                switch (i) {
-                    case 0:
-                        context = LocaleHelper.setLocale(MainActivity.this, "en");
-                        setallTexts(context.getResources());
-                        break;
-                    case 1:
-                        context = LocaleHelper.setLocale(MainActivity.this, "nl");
-                        setallTexts(context.getResources());
-                        break;
-                }
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) { }
-        });
+
         this.button = findViewById(R.id.projectsButton);
         this.button.setText(getString(R.string.projectsHeader));
         this.button.setOnClickListener(new View.OnClickListener() {
