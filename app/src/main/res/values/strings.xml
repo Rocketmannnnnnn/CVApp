@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">UX CV App</string>
+    <string name="projectsHeader">Projects</string>
+    <string name="contactInfoHeader" translatable="false">Contact info</string>
+    <string name="infoHeaderTextView">Introduction</string>
+    <string name="infoTextView">Hi! I\'m an enthousiastic programmer and love I playing videogames. In my spare time I make my own videogame and go out with friends.</string>
+    <string name="contactInfo">Name: Jasper Bonefaas\nPhone number: +31 6 37347971\nEmail address: Jasper.bonefaas@gmail.com\nAddress: Flierstraat 39, Breda</string>
+    <string name="projectTitle" translatable="false">projectTitle</string>
+    <string name="date" translatable="false">2000</string>
+    <string name="projectDescription">projectDescription</string>
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Nederlands</item>
+    </string-array>
+    <string name="weatherstation">Weatherstation</string>
+    <string name="weatherstationDescription">In a group of 6 people we learned how to program a weather station.</string>
+    <string name="boebot" translatable="false">Boebot</string>
+    <string name="boebotDescription">6 persons, 3 boebots and 1 goal. We made a robot capable of following lines, stopping for walls, listening to a remote and responding with leds.</string>
+    <string name="festivalPlanner" translatable="false">Festivalplanner</string>
+    <string name="festivalPlannerDescription">Who likes to party!? In this project we made a festival planning program. It\'s function was to simulate AI\'s with pathfindding algorithems.</string>
+    <string name="mobileApplication">Mobile Application</string>
+    <string name="mobileApplicationDescription">A day at the theme park, who doesn\'t love it? In this project we made an Android application and used an Arduino to make an \'experience\'.</string>
+    <string name="cvapp" translatable="false">CV App</string>
+    <string name="cvappdescription">For Android Programming and UX designe we made an awesome app. It contains pictures, recycleviews, translations and a very nice designe!</string>
+    <string name="language">English</string>
+</resources>

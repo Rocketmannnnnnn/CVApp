@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="projectsHeader">Projecten</string>
+    <string name="infoTextView">Hallo! Ik ben een enthousiaste programmeur en ik hou van gamen. In mijn vrije tijd maak ik een eigen game en ga ik uit met vrienden.</string>
+    <string name="infoHeaderTextView">Introductie</string>
+    <string name="contactInfo">Naam: Jasper Bonefaas\nTelefoonnummer: +31 6 37347971\nEmail adres: Jasper.bonefaas@gmail.com\nAdres: Flierstraat 39, Breda</string>
+    <string name="weatherstation">Weerstation</string>
+    <string name="weatherstationDescription">In een groep van 6 personen leerden we hoe we een weerstation programmeerden.</string>
+    <string name="boebotDescription">6 mensen, 3 boebots en 1 doel. We maakten een robot die lijnen kon volgen, kon stoppen voor muren, kon luisteren naar een afstandsbediening en reageerde met leds.</string>
+    <string name="festivalPlannerDescription">Wie houdt van feesten!? In dit project hebben we een festival planner programma gemaakt. Het moest AI\'s met pathfinding algoritmes simuleren.</string>
+    <string name="mobileApplication">Mobiele Applicatie</string>
+    <string name="mobileApplicationDescription">Een dag in het pretpark, wie houdt er niet van? In dit project hebben we een Android applicatie gemaakt en hebben we een Arduino gebruikt om een \'beleving\' te maken.</string>
+    <string name="projectDescription">projectBeschrijving</string>
+    <string name="cvappdescription">Voor Android Programmeren en UX designe hebben we een geweldige app gemaakt. Het heeft plaatjes, recycleviews, vertalingen en een heel mooi designe!</string>
+    <string name="language">Nederlands</string>
+</resources>
